@@ -12,9 +12,9 @@ function age () {
 
     if (guess >= 6) {
       document.getElementById('answer').innerHTML = 'You guessed too high.'
-  }   else if (guess <= 4) {
+    } else if (guess <= 4) {
       document.getElementById('answer').innerHTML = 'You guessed too low.'
-  }   else {
+    } else {
       document.getElementById('answer').innerHTML = 'You guessed the right number!'
     }
   }
